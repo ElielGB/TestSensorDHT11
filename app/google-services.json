@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "608666161348",
+    "firebase_url": "https://proyecto-sensor-14550-default-rtdb.firebaseio.com",
+    "project_id": "proyecto-sensor-14550",
+    "storage_bucket": "proyecto-sensor-14550.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608666161348:android:de8ad616767c1e876e7991",
+        "android_client_info": {
+          "package_name": "com.example.wichitoaplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608666161348-qf2fli8bssc9g7ifr6ka8l0eoel265c0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wichitoaplication",
+            "certificate_hash": "aca7b3ee7066952d11507c195654f40672881dda"
+          }
+        },
+        {
+          "client_id": "608666161348-vb7n37mn3rsir10kmeq5o5kr62rg5eaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD64VzqoxH3j0aa03D52OkhwWDdVoC4eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608666161348-vb7n37mn3rsir10kmeq5o5kr62rg5eaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

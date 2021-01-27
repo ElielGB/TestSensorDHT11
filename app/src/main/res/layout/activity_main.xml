@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondomain"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnHumedad"
+        android:layout_width="281dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#2E86C1"
+        android:text="Humedad"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnTemperatura"
+        android:layout_width="281dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#2E86C1"
+        android:text="Temperatura"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/imagenmain"
+        tools:ignore="VectorDrawableCompat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFORMACIÓN DE LA APLICACIÓN:"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/btnAcercade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="CLICK AQUÍ"
+            android:textColor="#2E86C1"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

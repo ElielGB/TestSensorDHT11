@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondotemperatura"
+    android:gravity="center"
+    tools:context=".TemperaturaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="130dp"
+        android:text="Gráfica"
+        android:textColor="#2E86C1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_margin="10sp"
+        android:id="@+id/linechart"/>
+
+    <Button
+        android:id="@+id/btnRegresarMain"
+        android:layout_width="300dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Regresar"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:backgroundTint="#2E86C1"
+        android:textSize="20sp" />
+
+</LinearLayout>
